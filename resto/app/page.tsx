@@ -818,7 +818,7 @@ export default function MalleteBites() {
               rel="noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="inline-flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white font-bold text-lg glow-green"
+              className="inline-flex items-center gap-3 px-5 md:px-10 py-5 rounded-full bg-gradient-to-r from-[#25D366] to-[#128C7E] text-white font-bold text-lg glow-green"
             >
               <FaWhatsapp size={24} />
               Start Your Order Now
