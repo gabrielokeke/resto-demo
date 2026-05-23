@@ -54,7 +54,7 @@ const menuItems = [
   {
     id: 5,
     name: "Burger Deluxe",
-    desc: "Double smash patty, pepper jack cheese, caramelized onions & signature smoky Bissy Joy sauce.",
+    desc: "Double smash patty, pepper jack cheese, caramelized onions & signature smoky Arena sauce.",
     price: "₦3,800",
     rating: 4.9,
     tag: "New",
@@ -77,14 +77,14 @@ const steps = [
   {
     num: "01",
     title: "Choose Your Meal",
-    desc: "Browse our premium menu and pick your favorites — from smoky jollof to loaded shawarmas.",
+    desc: "Browse our premium menu and pick your favorites from smoky jollof to loaded shawarmas.",
     icon: <ShoppingBag size={28} />,
     color: "#FF6B35",
   },
   {
     num: "02",
     title: "Message on WhatsApp",
-    desc: "One tap opens WhatsApp. Tell us what you want, where you are — we handle the rest.",
+    desc: "One tap opens WhatsApp. Tell us what you want, where you are  we handle the rest.",
     icon: <FaWhatsapp size={28} />,
     color: "#25D366",
   },
@@ -101,14 +101,14 @@ const testimonials = [
   {
     name: "Adaeze Okafor",
     role: "Food Blogger, Lagos",
-    text: "Bissy Joy is genuinely the best jollof rice I've ever ordered. The smokiness is just unreal. My followers went crazy when I shared it.",
+    text: "Arena is genuinely the best jollof rice I've ever ordered. The smokiness is just unreal. My followers went crazy when I shared it.",
     rating: 5,
     img: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80",
   },
   {
     name: "Chukwuemeka Eze",
     role: "Entrepreneur, Abuja",
-    text: "The WhatsApp ordering is genius. I order for my whole team on Fridays — always arrives fast, always perfect. Nothing comes close.",
+    text: "The WhatsApp ordering is genius. I order for my whole team on Fridays  always arrives fast, always perfect. Nothing comes close.",
     rating: 5,
     img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
   },
@@ -283,7 +283,7 @@ export default function MalleteBites() {
               <Flame size={18} className="text-white" />
             </div>
             <span className="text-xl font-bold tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Bissy<span className="text-[#FF6B35]"> Joy</span>
+              <span className="text-[#FF6B35]"> Arena</span>
               
             </span>
           </motion.a>
@@ -414,7 +414,7 @@ export default function MalleteBites() {
                 transition={{ duration: 0.6, delay: 0.25 }}
                 className="text-lg text-white/50 mb-10 max-w-md leading-relaxed"
               >
-                Fast. Fresh. Delivered through WhatsApp in minutes. Real African flavors, premium quality — every single time.
+                Fast. Fresh. Delivered through WhatsApp in minutes. Real African flavors, premium quality  every single time.
               </motion.p>
 
               <motion.div
@@ -652,7 +652,7 @@ export default function MalleteBites() {
                   </h2>
 
                   <p className="text-white/50 mb-6 leading-relaxed">
-                    Our signature combo: suya-spiced chicken, smoky jollof rice, plantains, and a chilled zobo drink. The perfect Nigerian feast for two — now at a special price.
+                    Our signature combo: suya-spiced chicken, smoky jollof rice, plantains, and a chilled zobo drink. The perfect Nigerian feast for two  now at a special price.
                   </p>
 
                   <div className="flex items-baseline gap-3 mb-8">
@@ -809,7 +809,7 @@ export default function MalleteBites() {
             </h2>
 
             <p className="text-white/40 text-lg mb-10 max-w-lg mx-auto">
-              Don't wait. Don't wonder. Just tap the button below and we'll take care of everything — fast, fresh, and unforgettable.
+              Don't wait. Don't wonder. Just tap the button below and we'll take care of everything  fast, fresh, and unforgettable.
             </p>
 
             <motion.a
@@ -841,7 +841,7 @@ export default function MalleteBites() {
                   <Flame size={18} className="text-white" />
                 </div>
                 <span className="text-xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  Bissy<span className="text-[#FF6B35]"> Joy</span>
+                  <span className="text-[#FF6B35]"> Arena</span>
                 </span>
               </div>
               <p className="text-white/30 text-sm leading-relaxed mb-6 max-w-xs">
@@ -903,7 +903,7 @@ export default function MalleteBites() {
 
           <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/20 text-xs">
-              © 2026 Bizzy Joy. All rights reserved.
+              © 2026 Arena. All rights reserved.
             </p>
             <p className="text-white/10 text-xs">
               Made with ❤️ for premium food lovers
