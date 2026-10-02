@@ -23,7 +23,7 @@ const menuItems = [
   },
   {
     id: 2,
-    name: "Shawarma",
+    name: "Spring rolls",
     desc: "Loaded wrap with tender marinated chicken, garlic sauce, crisp veggies & warm flatbread.",
     price: "₦3,200",
     rating: 4.8,
@@ -77,7 +77,7 @@ const steps = [
   {
     num: "01",
     title: "Choose Your Meal",
-    desc: "Browse our premium menu and pick your favorites from smoky jollof to loaded shawarmas.",
+    desc: "Browse our premium menu and pick your favorites from smoky jollof to loaded Spring rollss.",
     icon: <ShoppingBag size={28} />,
     color: "#FF6B35",
   },
@@ -101,7 +101,7 @@ const testimonials = [
   {
     name: "Adaeze Okafor",
     role: "Food Blogger, Lagos",
-    text: "The Taj Corner is genuinely the best jollof rice I've ever ordered. The smokiness is just unreal. My followers went crazy when I shared it.",
+    text: "Chops Central is genuinely the best jollof rice I've ever ordered. The smokiness is just unreal. My followers went crazy when I shared it.",
     rating: 5,
     img: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80",
   },
@@ -283,7 +283,7 @@ export default function MalleteBites() {
               <Flame size={18} className="text-white" />
             </div>
             <span className="text-xl font-bold tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-              <span className="text-[#FF6B35]"> The Taj Corner</span>
+              <span className="text-[#FF6B35]"> Chops Central</span>
               
             </span>
           </motion.a>
@@ -482,12 +482,12 @@ export default function MalleteBites() {
               <FloatingCard className="absolute top-8 right-0 w-52 h-52 rounded-2xl overflow-hidden shadow-xl z-10" delay={0.8}>
                 <img
                   src="https://images.unsplash.com/photo-1561651188-d207bbec4ec3?w=400&q=80"
-                  alt="Shawarma"
+                  alt="Spring rolls"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-3 left-3 text-white">
-                  <div className="text-xs font-semibold">Shawarma</div>
+                  <div className="text-xs font-semibold">Spring rolls</div>
                 </div>
               </FloatingCard>
 
@@ -841,7 +841,7 @@ export default function MalleteBites() {
                   <Flame size={18} className="text-white" />
                 </div>
                 <span className="text-xl font-bold" style={{ fontFamily: "'Playfair Display', serif" }}>
-                  <span className="text-[#FF6B35]"> The Taj Corner</span>
+                  <span className="text-[#FF6B35]"> Chops Central</span>
                 </span>
               </div>
               <p className="text-white/30 text-sm leading-relaxed mb-6 max-w-xs">
@@ -903,7 +903,7 @@ export default function MalleteBites() {
 
           <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/20 text-xs">
-              © 2026 The Taj Corner. All rights reserved.
+              © 2026 Chops Central. All rights reserved.
             </p>
             <p className="text-white/10 text-xs">
               Made with ❤️ for premium food lovers

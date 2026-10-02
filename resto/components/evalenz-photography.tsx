@@ -44,21 +44,21 @@ const testimonials = [
     name: "Adaeze Okonkwo",
     role: "Fashion Designer, Lagos",
     img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&q=80",
-    text: "Evalenz captured something I didn't even know existed in me. Every frame felt like a luxury editorial campaign. I was blown away.",
+    text: "Xo/Studios captured something I didn't even know existed in me. Every frame felt like a luxury editorial campaign. I was blown away.",
     stars: 5,
   },
   {
     name: "Emeka & Chisom",
     role: "Newlyweds, Abuja",
     img: "https://images.unsplash.com/photo-1519741497674-611481863552?w=200&q=80",
-    text: "Our wedding album looks like a Vogue spread. People still ask us who our photographer was. Evalenz is simply in another league.",
+    text: "Our wedding album looks like a Vogue spread. People still ask us who our photographer was. Xo/Studios is simply in another league.",
     stars: 5,
   },
   {
     name: "Tolu Adeyemi",
     role: "Creative Director, London",
     img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&q=80",
-    text: "Working with Evalenz elevated our entire brand campaign. The visual intelligence and cinematic eye here is genuinely world-class.",
+    text: "Working with Xo/Studios elevated our entire brand campaign. The visual intelligence and cinematic eye here is genuinely world-class.",
     stars: 5,
   },
 ];
@@ -187,7 +187,7 @@ function Navbar() {
               <RiFilmLine size={16} className="text-black" />
             </div>
             <span className="text-white font-bold text-xl tracking-[0.15em] uppercase" style={{ fontFamily: "'Playfair Display', serif" }}>
-              Evalenz
+              Xo/Studios
             </span>
           </motion.div>
 
@@ -697,7 +697,7 @@ function Footer() {
                 <RiFilmLine size={16} className="text-black" />
               </div>
               <span className="text-white font-bold text-xl tracking-[0.15em] uppercase" style={{ fontFamily: "'Playfair Display', serif" }}>
-                Evalenz
+                Xo/Studios
               </span>
             </div>
             <p className="text-white/35 text-sm leading-relaxed max-w-xs">
@@ -754,7 +754,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-white/20 text-xs tracking-widest">© {new Date().getFullYear()} Evalenz Photography. All rights reserved.</p>
+          <p className="text-white/20 text-xs tracking-widest">© {new Date().getFullYear()} Xo/Studios Photography. All rights reserved.</p>
           <p className="text-white/20 text-xs tracking-widest">Crafted with vision. Shot with soul.</p>
         </div>
       </div>
