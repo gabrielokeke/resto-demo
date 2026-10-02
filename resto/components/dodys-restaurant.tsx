@@ -18,7 +18,7 @@ const BRAND = {
   location: "Parakou, Bénin",
   city: "Parakou",
   phone: "+229 01 61 71 39 39",
-  whatsapp: "https://wa.me/22901627777?text=Bonjour%20Dody's%2C%20je%20voudrais%20passer%20une%20commande%20%F0%9F%8D%95",
+  whatsapp: "https://wa.me/2290161713939?text=Bonjour%20Dody's%2C%20je%20voudrais%20passer%20une%20commande%20%F0%9F%8D%95",
   googleMaps: "https://maps.app.goo.gl/parkouLink",
   facebook: "https://www.facebook.com/Dodys-Pizza-Pasta-1719236721655505",
   instagram: "https://instagram.com/dodysrestaurant",
