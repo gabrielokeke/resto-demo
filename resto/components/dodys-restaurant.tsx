@@ -18,7 +18,7 @@ const BRAND = {
   location: "9JGJ+W36, Unnamed Road, Parakou, Bénin",
   city: "Parakou",
   phone: "+229 01 62 77 77 77",
-  whatsapp: "https://wa.me/22901627777?text=Bonjour%20Dody's%2C%20je%20voudrais%20passer%20une%20commande%20%F0%9F%8D%95",
+  whatsapp: "https://wa.me/2290162777777?text=Bonjour%20Dody's%2C%20je%20voudrais%20passer%20une%20commande%20%F0%9F%8D%95",
   googleMaps: "https://maps.app.goo.gl/parkouLink",
   facebook: "https://www.facebook.com/Dodys-Pizza-Pasta-1719236721655505",
   instagram: "https://instagram.com/dodysrestaurant",
@@ -343,8 +343,8 @@ export default function DodysRestaurant() {
                 </div>
                 <span className="font-semibold">{BRAND.rating}</span>
                 <span className="text-white/30">{BRAND.reviewCount} avis Google</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                <span className="text-green-400 text-xs">Ouvert</span>
+                {/* <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+                <span className="text-green-400 text-xs">Ouvert</span> */}
               </motion.div>
 
               <motion.h1 initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.1 }}
