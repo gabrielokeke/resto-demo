@@ -326,7 +326,7 @@ export default function DodysRestaurant() {
       <section className="relative min-h-screen flex items-center overflow-hidden pt-20">
         <ParticleCanvas />
         <div className="absolute inset-0 z-1">
-          <img src={BRAND.heroImg} alt="Nabil's" className="w-full h-full object-cover opacity-20" />
+          <img src={BRAND.heroImg} alt="Dody's" className="w-full h-full object-cover opacity-20" />
           <div className="absolute inset-0 bg-linear-to-b from-[#080808]/70 via-[#080808]/50 to-[#080808]" />
         </div>
         <div className="absolute top-1/3 left-1/4 w-80 h-80 rounded-full blur-[160px] opacity-10 z-1" style={{ background: BRAND.primaryColor }} />
@@ -468,7 +468,7 @@ export default function DodysRestaurant() {
                     <p className="text-white/35 text-sm mb-5 leading-relaxed">{item.desc}</p>
                     <div className="flex items-center justify-between">
                       <span className="text-xl font-bold" style={{ color: item.color }}>{item.price}</span>
-                      <a href={`${WHATSAPP_URL}&text=Bonjour%20Chez%20Nabil%2C%20je%20voudrais%20commander%20${encodeURIComponent(item.name)}`} target="_blank" rel="noreferrer"
+                      <a href={`${WHATSAPP_URL}&text=Bonjour%20Dody's%2C%20je%20voudrais%20commander%20${encodeURIComponent(item.name)}`} target="_blank" rel="noreferrer"
                         className="flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold text-white glow-green"
                         style={{ background: "linear-gradient(135deg, #25D366, #128C7E)" }}>
                         <FaWhatsapp size={13} /> Commander
