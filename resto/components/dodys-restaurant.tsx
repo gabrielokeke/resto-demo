@@ -11,27 +11,26 @@ import { FaWhatsapp, FaTiktok, FaInstagram, FaFacebook, FaPizzaSlice, FaGlassMar
 
 // ─── CONFIG — change these per client ───────────────────────────────────────
 const BRAND = {
-  name: "Chez Nabil",
-  tagline: "Lounge Bar",
+  name: "Dody's",
+  tagline: "Pizza & Pasta",
   type: "Restaurant & Bar",
-  description: "Le meilleur cadre d'Parakou pour savourer pizzas, pâtes, cocktails et bien plus encore.",
-  location: "Parakou, Bénin",
+  description: "Le meilleur cadre de Parakou pour savourer pizzas, pâtes, cocktails et bien plus encore.",
+  location: "9JGJ+W36, Unnamed Road, Parakou, Bénin",
   city: "Parakou",
-  phone: "+229 01 61 71 39 39",
-  whatsapp: "https://wa.me/2290161713939?text=Bonjour%20Chez%20Nabil%2C%20je%20voudrais%20passer%20une%20commande%20%F0%9F%8D%95",
+  phone: "+229 01 62 77 77 77",
+  whatsapp: "https://wa.me/22901627777?text=Bonjour%20Dody's%2C%20je%20voudrais%20passer%20une%20commande%20%F0%9F%8D%95",
   googleMaps: "https://maps.app.goo.gl/parkouLink",
-  facebook: "https://www.facebook.com/",
-  instagram: "https://instagram.com/",
+  facebook: "https://www.facebook.com/Dodys-Pizza-Pasta-1719236721655505",
+  instagram: "https://instagram.com/dodysrestaurant",
   tiktok: "#",
   hours: "Lun–Dim : 10h – 2h",
-  rating: 3.9,
-  reviewCount: 497,
+  rating: 4.1,
+  reviewCount: 707,
   heroImg: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=1400&q=90",
   logoEmoji: "🍕",
   primaryColor: "#E63946",
   accentColor: "#F4A261",
 };
-
 const WHATSAPP_URL = BRAND.whatsapp;
 
 // ─── NAV LINKS ────────────────────────────────────────────────────────────────
@@ -154,7 +153,7 @@ const testimonials = [
   {
     name: "Ines F.",
     role: "Blogueuse food, Bénin",
-    text: "Chez Nabil c'est LE spot incontournable. La carbonara est parfaite, les cocktails créatifs. L'équipe est au petit soin.",
+    text: "Dody's c'est LE spot incontournable. La carbonara est parfaite, les cocktails créatifs. L'équipe est au petit soin.",
     rating: 5,
     img: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&q=80",
     platform: "Facebook",
@@ -326,12 +325,12 @@ export default function DodysRestaurant() {
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center overflow-hidden pt-20">
         <ParticleCanvas />
-        <div className="absolute inset-0 z-[1]">
+        <div className="absolute inset-0 z-1">
           <img src={BRAND.heroImg} alt="Nabil's" className="w-full h-full object-cover opacity-20" />
-          <div className="absolute inset-0 bg-gradient-to-b from-[#080808]/70 via-[#080808]/50 to-[#080808]" />
+          <div className="absolute inset-0 bg-linear-to-b from-[#080808]/70 via-[#080808]/50 to-[#080808]" />
         </div>
-        <div className="absolute top-1/3 left-1/4 w-80 h-80 rounded-full blur-[160px] opacity-10 z-[1]" style={{ background: BRAND.primaryColor }} />
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full blur-[140px] opacity-8 z-[1]" style={{ background: "#25D366" }} />
+        <div className="absolute top-1/3 left-1/4 w-80 h-80 rounded-full blur-[160px] opacity-10 z-1" style={{ background: BRAND.primaryColor }} />
+        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 rounded-full blur-[140px] opacity-8 z-1" style={{ background: "#25D366" }} />
 
         <div className="relative z-10 max-w-7xl mx-auto px-5 md:px-10 w-full py-24">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -379,9 +378,9 @@ export default function DodysRestaurant() {
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 0.6 }}
                 className="flex gap-8">
                 {[
-                  { val: "497+", lbl: "Avis Google" },
-                  { val: "3.9★", lbl: "Note moyenne" },
-                  { val: "10h–02h", lbl: "Ouvert tous les jours" },
+                  { val: "707+", lbl: "Avis Google" },
+                  { val: "4.1★", lbl: "Note moyenne" },
+                  { val: "10h–2h", lbl: "Ouvert tous les jours" },
                 ].map((s, i) => (
                   <motion.div key={s.lbl} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.55 + i * 0.09 }}>
                     <div className="text-2xl font-bold">{s.val}</div>
@@ -392,26 +391,26 @@ export default function DodysRestaurant() {
             </div>
 
             {/* Floating cards */}
-            <div className="hidden lg:flex relative h-[560px] items-center justify-center">
+            <div className="hidden lg:flex relative h-140 items-center justify-center">
               <FloatingCard delay={0} className="absolute w-64 h-64 rounded-3xl overflow-hidden shadow-2xl z-20">
                 <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80" alt="Pizza" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4"><div className="text-sm font-semibold">Pizza Forestière</div><div className="text-xs text-white/60">7 500 F CFA</div></div>
               </FloatingCard>
               <FloatingCard delay={0.9} className="absolute top-6 right-4 w-48 h-48 rounded-2xl overflow-hidden shadow-xl z-10">
                 <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&q=80" alt="Pasta" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-3 left-3 text-xs font-semibold">Penne Carbonara</div>
               </FloatingCard>
               <FloatingCard delay={1.6} className="absolute bottom-12 -left-4 w-44 h-44 rounded-2xl overflow-hidden shadow-xl z-10">
                 <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&q=80" alt="Cocktail" className="w-full h-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-3 left-3 text-xs font-semibold">Cocktail du Jour</div>
               </FloatingCard>
               <FloatingCard delay={2} className="absolute top-0 left-10 glass rounded-2xl px-4 py-3 z-30">
                 <div className="flex items-center gap-2">
                   <div className="text-yellow-400 text-sm">★★★★★</div>
-                  <div><div className="text-xs font-bold">3.9 / 5</div><div className="text-[10px] text-white/35">497 avis</div></div>
+                  <div><div className="text-xs font-bold">4.1 / 5</div><div className="text-[10px] text-white/35">707 avis</div></div>
                 </div>
               </FloatingCard>
               <FloatingCard delay={2.4} className="absolute bottom-4 right-2 glass rounded-2xl px-4 py-3 z-30">
@@ -425,7 +424,7 @@ export default function DodysRestaurant() {
             </div>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-t from-[#080808] to-transparent z-10" />
+        <div className="absolute bottom-0 left-0 right-0 h-28 bg-linear-to-t from-[#080808] to-transparent z-10" />
       </section>
 
       {/* ── MENU ── */}
@@ -451,14 +450,14 @@ export default function DodysRestaurant() {
           </Reveal>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <AnimatePresence mode="wait">
+            <AnimatePresence >
               {menuCategories[activeTab].items.map((item, i) => (
                 <motion.div key={item.name} initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.45, delay: i * 0.08 }}
                   className="relative glass rounded-3xl overflow-hidden shine cursor-pointer group" whileHover={{ y: -5 }}>
                   <div className="h-52 overflow-hidden relative">
                     <motion.img src={item.img} alt={item.name} className="w-full h-full object-cover" whileHover={{ scale: 1.07 }} transition={{ duration: 0.4 }} />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-t from-[#080808] via-transparent to-transparent" />
                     <div className="absolute top-3 left-3 px-3 py-1 rounded-full text-xs font-semibold text-white" style={{ background: item.color + "33", border: `1px solid ${item.color}55` }}>{item.tag}</div>
                   </div>
                   <div className="p-5">
@@ -489,7 +488,7 @@ export default function DodysRestaurant() {
           <Reveal>
             <div className="relative glass rounded-3xl overflow-hidden border border-white/8">
               <div className="grid md:grid-cols-2">
-                <div className="p-10 md:p-14 flex flex-col justify-center">
+                <div className="py-10 px-5 md:px-10 md:p-14 flex flex-col justify-center">
                   <motion.div animate={{ scale: [1, 1.04, 1] }} transition={{ duration: 2.2, repeat: Infinity }}
                     className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border text-sm font-semibold mb-6 w-fit"
                     style={{ background: `${BRAND.primaryColor}22`, borderColor: `${BRAND.primaryColor}55`, color: BRAND.primaryColor }}>
@@ -500,7 +499,7 @@ export default function DodysRestaurant() {
                   </h2>
                   <p className="text-white/40 mb-7 text-sm leading-relaxed">Profitez de notre offre exclusive chaque soir. Choisissez votre pizza préférée et notre barman vous prépare le cocktail du moment  offert.</p>
                   <div className="flex items-center gap-3 mb-8">
-                    <span className="px-3 py-1 rounded-full text-white text-xs font-bold" style={{ background: BRAND.primaryColor }}>OFFRE LIMITÉE</span>
+                    <span className="px-3 py-1 rounded-full text-white text-[10px] md:text-xs font-bold" style={{ background: BRAND.primaryColor }}>OFFRE LIMITÉE</span>
                     <span className="text-white/30 text-sm">Valable ce soir uniquement</span>
                   </div>
                   <a href={WHATSAPP_URL} target="_blank" rel="noreferrer"
@@ -511,7 +510,7 @@ export default function DodysRestaurant() {
                 </div>
                 <div className="relative h-60 md:h-auto">
                   <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&q=80" alt="Offre spéciale" className="absolute inset-0 w-full h-full object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-l from-transparent to-[#080808]/50" />
+                  <div className="absolute inset-0 bg-linear-to-l from-transparent to-[#080808]/50" />
                 </div>
               </div>
             </div>
@@ -643,7 +642,7 @@ export default function DodysRestaurant() {
       </section>
 
       {/* ── HORAIRES & LOCALISATION ── */}
-      <section id="horaires" className="py-16 bg-[#050505]">
+         <section id="horaires" className="py-16 bg-[#050505]">
         <div className="max-w-7xl mx-auto px-5 md:px-10">
           <div className="grid md:grid-cols-2 gap-8">
             <Reveal>
@@ -740,7 +739,7 @@ export default function DodysRestaurant() {
           </div>
           <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/15 text-xs">© 2026 {BRAND.name} {BRAND.tagline}. Tous droits réservés.</p>
-            <p className="text-white/10 text-xs">Conçu avec ❤️ à Parakou</p>
+            <p className="text-white/10 text-xs">Conçu par GTECH à Parakou</p>
           </div>
         </div>
       </footer>
