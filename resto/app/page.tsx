@@ -5,6 +5,7 @@
 // import EvalenzPortfolio from '@/components/evalenz-photography'
 // import HorizonHumanityFoundation from '../components/HorizonHumanityFoundation (1)'
 // import AcademiaPage from '@/components/School'
+import RizzyCommand from '../components/rizzybdg-command'
 // import BrightpathAcademyPage from '@/components/BrightpathAcademyPage'
 // import KingsfordCollegePage from '@/components/KingsfordCollegePage'
 // import CleaningCompanyPage from '@/components/Cleaning'
@@ -18,7 +19,10 @@
 // import OuidahSurMerPage from '@/components/Ouidahsurmer'
 // import BoweryBarberCo from '../components/bowery-barber-co'
 // import GlamourStudioMCR from '@/components/Glamour'
-import DodysRestaurant from '../components/dodys-restaurant'
+// import MaleteApartmentHub from '@/components/malete-apartment-hub'
+// import DodysRestaurant from '../components/dodys-restaurant'
+// import TobiBlaqEduConsult from '@/components/tobi-blaq-edu-consult'
+// import FataiFadylImmo from '@/components/agent'
 
 function page() {
   return (
@@ -30,13 +34,17 @@ function page() {
       {/* <LumiereLondon/> */}
       {/* <GlamourStudioMCR/> */}
       {/* <OuidahSurMerPage/> */}
-      <DodysRestaurant/>
+      {/* <DodysRestaurant/> */}
+      {/* <MaleteApartmentHub/> */}
+      {/* <FataiFadylImmo/> */}
+      {/* <TobiBlaqEduConsult/> */}
       {/* <BoweryBarberCo/> */}
       {/* <KingsfordCollegePage/> */}
       {/* <CleaningCompanyPage/> */}
       {/* <EvalenzPortfolio/> */}
       {/* <HorizonHumanityFoundation/> */}
       {/* <AcademiaPage/> */}
+      <RizzyCommand/>
     {/* <POPWebsite/> */}
     {/* <BeatHivePage/> */}
     {/* <ThelvysHairStudio/> */}
